@@ -1,0 +1,1969 @@
+{
+    "language": "es-ES",
+    "messages": [
+        {
+            "id": "Version: {Number}",
+            "message": "Version: {Number}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.Number"
+                }
+            ]
+        },
+        {
+            "id": "FRP version: {FRPVersion}",
+            "message": "FRP version: {FRPVersion}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "FRPVersion",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.FRPVersion"
+                }
+            ]
+        },
+        {
+            "id": "Built on: {BuildDate}",
+            "message": "Built on: {BuildDate}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "BuildDate",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.BuildDate"
+                }
+            ]
+        },
+        {
+            "id": "All Files",
+            "message": "All Files",
+            "translation": ""
+        },
+        {
+            "id": "Configuration Files",
+            "message": "Configuration Files",
+            "translation": ""
+        },
+        {
+            "id": "Certificate Files",
+            "message": "Certificate Files",
+            "translation": ""
+        },
+        {
+            "id": "Key Files",
+            "message": "Key Files",
+            "translation": ""
+        },
+        {
+            "id": "Password mismatch",
+            "message": "Password mismatch",
+            "translation": ""
+        },
+        {
+            "id": "Please check and try again.",
+            "message": "Please check and try again.",
+            "translation": ""
+        },
+        {
+            "id": "New Version!",
+            "message": "New Version!",
+            "translation": ""
+        },
+        {
+            "id": "About",
+            "message": "About",
+            "translation": ""
+        },
+        {
+            "id": "Download updates",
+            "message": "Download updates",
+            "translation": ""
+        },
+        {
+            "id": "Checking for updates",
+            "message": "Checking for updates",
+            "translation": ""
+        },
+        {
+            "id": "Check for updates",
+            "message": "Check for updates",
+            "translation": ""
+        },
+        {
+            "id": "For comments or to report bugs, please visit the project page:",
+            "message": "For comments or to report bugs, please visit the project page:",
+            "translation": ""
+        },
+        {
+            "id": "For FRP configuration documentation, please visit the FRP project page:",
+            "message": "For FRP configuration documentation, please visit the FRP project page:",
+            "translation": ""
+        },
+        {
+            "id": "An error occurred while checking for a software update.",
+            "message": "An error occurred while checking for a software update.",
+            "translation": ""
+        },
+        {
+            "id": "There are currently no updates available.",
+            "message": "There are currently no updates available.",
+            "translation": ""
+        },
+        {
+            "id": "OK",
+            "message": "OK",
+            "translation": ""
+        },
+        {
+            "id": "Cancel",
+            "message": "Cancel",
+            "translation": ""
+        },
+        {
+            "id": "Name",
+            "message": "Name",
+            "translation": ""
+        },
+        {
+            "id": "Value",
+            "message": "Value",
+            "translation": ""
+        },
+        {
+            "id": "Add",
+            "message": "Add",
+            "translation": ""
+        },
+        {
+            "id": "Delete",
+            "message": "Delete",
+            "translation": ""
+        },
+        {
+            "id": "Clear All",
+            "message": "Clear All",
+            "translation": ""
+        },
+        {
+            "id": "Move Up",
+            "message": "Move Up",
+            "translation": ""
+        },
+        {
+            "id": "Move Down",
+            "message": "Move Down",
+            "translation": ""
+        },
+        {
+            "id": "Configuration",
+            "message": "Configuration",
+            "translation": ""
+        },
+        {
+            "id": "New Configuration",
+            "message": "New Configuration",
+            "translation": ""
+        },
+        {
+            "id": "Import from File",
+            "message": "Import from File",
+            "translation": ""
+        },
+        {
+            "id": "Delete {Count} configs",
+            "message": "Delete {Count} configs",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Config already removed",
+            "message": "Config already removed",
+            "translation": ""
+        },
+        {
+            "id": "The config \"{Name}\" already removed.",
+            "message": "The config \"{Name}\" already removed.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Edit",
+            "message": "Edit",
+            "translation": ""
+        },
+        {
+            "id": "Move",
+            "message": "Move",
+            "translation": ""
+        },
+        {
+            "id": "Up",
+            "message": "Up",
+            "translation": ""
+        },
+        {
+            "id": "Down",
+            "message": "Down",
+            "translation": ""
+        },
+        {
+            "id": "To Top",
+            "message": "To Top",
+            "translation": ""
+        },
+        {
+            "id": "To Bottom",
+            "message": "To Bottom",
+            "translation": ""
+        },
+        {
+            "id": "Open File",
+            "message": "Open File",
+            "translation": ""
+        },
+        {
+            "id": "Show in Folder",
+            "message": "Show in Folder",
+            "translation": ""
+        },
+        {
+            "id": "Create a Copy",
+            "message": "Create a Copy",
+            "translation": ""
+        },
+        {
+            "id": "All",
+            "message": "All",
+            "translation": ""
+        },
+        {
+            "id": "Common Only",
+            "message": "Common Only",
+            "translation": ""
+        },
+        {
+            "id": "Import Config",
+            "message": "Import Config",
+            "translation": ""
+        },
+        {
+            "id": "Import from URL",
+            "message": "Import from URL",
+            "translation": ""
+        },
+        {
+            "id": "Import from Clipboard",
+            "message": "Import from Clipboard",
+            "translation": ""
+        },
+        {
+            "id": "NAT Discovery",
+            "message": "NAT Discovery",
+            "translation": ""
+        },
+        {
+            "id": "Copy Share Link",
+            "message": "Copy Share Link",
+            "translation": ""
+        },
+        {
+            "id": "Export All Configs to ZIP",
+            "message": "Export All Configs to ZIP",
+            "translation": ""
+        },
+        {
+            "id": "Properties",
+            "message": "Properties",
+            "translation": ""
+        },
+        {
+            "id": "Select all",
+            "message": "Select all",
+            "translation": ""
+        },
+        {
+            "id": "New Config",
+            "message": "New Config",
+            "translation": ""
+        },
+        {
+            "id": "Manual Settings",
+            "message": "Manual Settings",
+            "translation": ""
+        },
+        {
+            "id": "Imported {Imported} of {Total} configs.",
+            "message": "Imported {Imported} of {Total} configs.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Imported",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "imported"
+                },
+                {
+                    "id": "Total",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "total"
+                }
+            ]
+        },
+        {
+            "id": "The file \"{Path}\" is not a valid ZIP file.",
+            "message": "The file \"{Path}\" is not a valid ZIP file.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Path",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "path"
+                }
+            ]
+        },
+        {
+            "id": "Delete config \"{Name}\"",
+            "message": "Delete config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete config \"{Name}\"?",
+            "message": "Are you sure you would like to delete config \"{Name}\"?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "The config is currently locked.",
+            "message": "The config is currently locked.",
+            "translation": ""
+        },
+        {
+            "id": "Are you sure that you want to delete these {Count} configs?",
+            "message": "Are you sure that you want to delete these {Count} configs?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "{SucceededCount} succeeded, {FailedCount} failed.",
+            "message": "{SucceededCount} succeeded, {FailedCount} failed.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "SucceededCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "succeededCount"
+                },
+                {
+                    "id": "FailedCount",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "failedCount"
+                }
+            ]
+        },
+        {
+            "id": "New Client",
+            "message": "New Client",
+            "translation": ""
+        },
+        {
+            "id": "Edit Client - {Name}",
+            "message": "Edit Client - {Name}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "cd.data.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Basic",
+            "message": "Basic",
+            "translation": ""
+        },
+        {
+            "id": "Server Address",
+            "message": "Server Address",
+            "translation": ""
+        },
+        {
+            "id": "Server Port",
+            "message": "Server Port",
+            "translation": ""
+        },
+        {
+            "id": "User",
+            "message": "User",
+            "translation": ""
+        },
+        {
+            "id": "STUN Server",
+            "message": "STUN Server",
+            "translation": ""
+        },
+        {
+            "id": "Auth",
+            "message": "Auth",
+            "translation": ""
+        },
+        {
+            "id": "Auth Method",
+            "message": "Auth Method",
+            "translation": ""
+        },
+        {
+            "id": "None",
+            "message": "None",
+            "translation": ""
+        },
+        {
+            "id": "Token",
+            "message": "Token",
+            "translation": ""
+        },
+        {
+            "id": "File",
+            "message": "File",
+            "translation": ""
+        },
+        {
+            "id": "Select Token File",
+            "message": "Select Token File",
+            "translation": ""
+        },
+        {
+            "id": "Source",
+            "message": "Source",
+            "translation": ""
+        },
+        {
+            "id": "Secret",
+            "message": "Secret",
+            "translation": ""
+        },
+        {
+            "id": "Audience",
+            "message": "Audience",
+            "translation": ""
+        },
+        {
+            "id": "Scope",
+            "message": "Scope",
+            "translation": ""
+        },
+        {
+            "id": "Token Endpoint",
+            "message": "Token Endpoint",
+            "translation": ""
+        },
+        {
+            "id": "Parameters",
+            "message": "Parameters",
+            "translation": ""
+        },
+        {
+            "id": "Heart Beats",
+            "message": "Heart Beats",
+            "translation": ""
+        },
+        {
+            "id": "Work Conns",
+            "message": "Work Conns",
+            "translation": ""
+        },
+        {
+            "id": "Log",
+            "message": "Log",
+            "translation": ""
+        },
+        {
+            "id": "Level",
+            "message": "Level",
+            "translation": ""
+        },
+        {
+            "id": "Max Days",
+            "message": "Max Days",
+            "translation": ""
+        },
+        {
+            "id": "Days",
+            "message": "Days",
+            "translation": ""
+        },
+        {
+            "id": "Admin",
+            "message": "Admin",
+            "translation": ""
+        },
+        {
+            "id": "Admin Address",
+            "message": "Admin Address",
+            "translation": ""
+        },
+        {
+            "id": "Password",
+            "message": "Password",
+            "translation": ""
+        },
+        {
+            "id": "Assets",
+            "message": "Assets",
+            "translation": ""
+        },
+        {
+            "id": "Select a local directory that the admin server will load resources from.",
+            "message": "Select a local directory that the admin server will load resources from.",
+            "translation": ""
+        },
+        {
+            "id": "Other Options",
+            "message": "Other Options",
+            "translation": ""
+        },
+        {
+            "id": "Auto Delete",
+            "message": "Auto Delete",
+            "translation": ""
+        },
+        {
+            "id": "Absolute",
+            "message": "Absolute",
+            "translation": ""
+        },
+        {
+            "id": "Relative",
+            "message": "Relative",
+            "translation": ""
+        },
+        {
+            "id": "Delete Date",
+            "message": "Delete Date",
+            "translation": ""
+        },
+        {
+            "id": "Delete Days",
+            "message": "Delete Days",
+            "translation": ""
+        },
+        {
+            "id": "s",
+            "message": "s",
+            "translation": ""
+        },
+        {
+            "id": "Connection",
+            "message": "Connection",
+            "translation": ""
+        },
+        {
+            "id": "Protocol",
+            "message": "Protocol",
+            "translation": ""
+        },
+        {
+            "id": "Advanced Options",
+            "message": "Advanced Options",
+            "translation": ""
+        },
+        {
+            "id": "Dial Timeout",
+            "message": "Dial Timeout",
+            "translation": ""
+        },
+        {
+            "id": "Keepalive",
+            "message": "Keepalive",
+            "translation": ""
+        },
+        {
+            "id": "Idle Timeout",
+            "message": "Idle Timeout",
+            "translation": ""
+        },
+        {
+            "id": "Pool Count",
+            "message": "Pool Count",
+            "translation": ""
+        },
+        {
+            "id": "Max Streams",
+            "message": "Max Streams",
+            "translation": ""
+        },
+        {
+            "id": "Heartbeat",
+            "message": "Heartbeat",
+            "translation": ""
+        },
+        {
+            "id": "Interval",
+            "message": "Interval",
+            "translation": ""
+        },
+        {
+            "id": "Timeout",
+            "message": "Timeout",
+            "translation": ""
+        },
+        {
+            "id": "On",
+            "message": "On",
+            "translation": ""
+        },
+        {
+            "id": "Off",
+            "message": "Off",
+            "translation": ""
+        },
+        {
+            "id": "Host Name",
+            "message": "Host Name",
+            "translation": ""
+        },
+        {
+            "id": "Certificate",
+            "message": "Certificate",
+            "translation": ""
+        },
+        {
+            "id": "Select Certificate File",
+            "message": "Select Certificate File",
+            "translation": ""
+        },
+        {
+            "id": "Certificate Key",
+            "message": "Certificate Key",
+            "translation": ""
+        },
+        {
+            "id": "Select Certificate Key File",
+            "message": "Select Certificate Key File",
+            "translation": ""
+        },
+        {
+            "id": "Trusted CA",
+            "message": "Trusted CA",
+            "translation": ""
+        },
+        {
+            "id": "Select Trusted CA File",
+            "message": "Select Trusted CA File",
+            "translation": ""
+        },
+        {
+            "id": "Disable custom first byte",
+            "message": "Disable custom first byte",
+            "translation": ""
+        },
+        {
+            "id": "Advanced",
+            "message": "Advanced",
+            "translation": ""
+        },
+        {
+            "id": "Source Address",
+            "message": "Source Address",
+            "translation": ""
+        },
+        {
+            "id": "TCP Mux",
+            "message": "TCP Mux",
+            "translation": ""
+        },
+        {
+            "id": "Exit after login failure",
+            "message": "Exit after login failure",
+            "translation": ""
+        },
+        {
+            "id": "Disable auto-start at boot",
+            "message": "Disable auto-start at boot",
+            "translation": ""
+        },
+        {
+            "id": "Use legacy file format",
+            "message": "Use legacy file format",
+            "translation": ""
+        },
+        {
+            "id": "Metadata",
+            "message": "Metadata",
+            "translation": ""
+        },
+        {
+            "id": "Proxy URL",
+            "message": "Proxy URL",
+            "translation": ""
+        },
+        {
+            "id": "UDP Packet Size",
+            "message": "UDP Packet Size",
+            "translation": ""
+        },
+        {
+            "id": "Token file is required.",
+            "message": "Token file is required.",
+            "translation": ""
+        },
+        {
+            "id": "Config already exists",
+            "message": "Config already exists",
+            "translation": ""
+        },
+        {
+            "id": "The config name \"{Name}\" already exists.",
+            "message": "The config name \"{Name}\" already exists.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "New Proxy",
+            "message": "New Proxy",
+            "translation": ""
+        },
+        {
+            "id": "Edit Proxy - {Name}",
+            "message": "Edit Proxy - {Name}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "pd.Proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Annotations",
+            "message": "Annotations",
+            "translation": ""
+        },
+        {
+            "id": "Random",
+            "message": "Random",
+            "translation": ""
+        },
+        {
+            "id": "Type",
+            "message": "Type",
+            "translation": ""
+        },
+        {
+            "id": "Request headers",
+            "message": "Request headers",
+            "translation": ""
+        },
+        {
+            "id": "Response headers",
+            "message": "Response headers",
+            "translation": ""
+        },
+        {
+            "id": "Role",
+            "message": "Role",
+            "translation": ""
+        },
+        {
+            "id": "Server",
+            "message": "Server",
+            "translation": ""
+        },
+        {
+            "id": "Visitor",
+            "message": "Visitor",
+            "translation": ""
+        },
+        {
+            "id": "Secret Key",
+            "message": "Secret Key",
+            "translation": ""
+        },
+        {
+            "id": "Local Address",
+            "message": "Local Address",
+            "translation": ""
+        },
+        {
+            "id": "Local Port",
+            "message": "Local Port",
+            "translation": ""
+        },
+        {
+            "id": "Remote Port",
+            "message": "Remote Port",
+            "translation": ""
+        },
+        {
+            "id": "Allow Users",
+            "message": "Allow Users",
+            "translation": ""
+        },
+        {
+            "id": "Bind Address",
+            "message": "Bind Address",
+            "translation": ""
+        },
+        {
+            "id": "Bind Port",
+            "message": "Bind Port",
+            "translation": ""
+        },
+        {
+            "id": "Server Name",
+            "message": "Server Name",
+            "translation": ""
+        },
+        {
+            "id": "Server User",
+            "message": "Server User",
+            "translation": ""
+        },
+        {
+            "id": "Subdomain",
+            "message": "Subdomain",
+            "translation": ""
+        },
+        {
+            "id": "Custom Domains",
+            "message": "Custom Domains",
+            "translation": ""
+        },
+        {
+            "id": "Locations",
+            "message": "Locations",
+            "translation": ""
+        },
+        {
+            "id": "Multiplexer",
+            "message": "Multiplexer",
+            "translation": ""
+        },
+        {
+            "id": "Route User",
+            "message": "Route User",
+            "translation": ""
+        },
+        {
+            "id": "Client",
+            "message": "Client",
+            "translation": ""
+        },
+        {
+            "id": "Bandwidth",
+            "message": "Bandwidth",
+            "translation": ""
+        },
+        {
+            "id": "Proxy Protocol",
+            "message": "Proxy Protocol",
+            "translation": ""
+        },
+        {
+            "id": "Auto",
+            "message": "Auto",
+            "translation": ""
+        },
+        {
+            "id": "Default",
+            "message": "Default",
+            "translation": ""
+        },
+        {
+            "id": "Keep Tunnel",
+            "message": "Keep Tunnel",
+            "translation": ""
+        },
+        {
+            "id": "Encryption",
+            "message": "Encryption",
+            "translation": ""
+        },
+        {
+            "id": "Compression",
+            "message": "Compression",
+            "translation": ""
+        },
+        {
+            "id": "Fallback",
+            "message": "Fallback",
+            "translation": ""
+        },
+        {
+            "id": "Fallback Timeout",
+            "message": "Fallback Timeout",
+            "translation": ""
+        },
+        {
+            "id": "ms",
+            "message": "ms",
+            "translation": ""
+        },
+        {
+            "id": "Retry Count",
+            "message": "Retry Count",
+            "translation": ""
+        },
+        {
+            "id": "Times/Hour",
+            "message": "Times/Hour",
+            "translation": ""
+        },
+        {
+            "id": "Retry Interval",
+            "message": "Retry Interval",
+            "translation": ""
+        },
+        {
+            "id": "HTTP User",
+            "message": "HTTP User",
+            "translation": ""
+        },
+        {
+            "id": "HTTP Password",
+            "message": "HTTP Password",
+            "translation": ""
+        },
+        {
+            "id": "Host Rewrite",
+            "message": "Host Rewrite",
+            "translation": ""
+        },
+        {
+            "id": "Plugin",
+            "message": "Plugin",
+            "translation": ""
+        },
+        {
+            "id": "Plugin Name",
+            "message": "Plugin Name",
+            "translation": ""
+        },
+        {
+            "id": "Unix Path",
+            "message": "Unix Path",
+            "translation": ""
+        },
+        {
+            "id": "Select Unix Path",
+            "message": "Select Unix Path",
+            "translation": ""
+        },
+        {
+            "id": "Local Path",
+            "message": "Local Path",
+            "translation": ""
+        },
+        {
+            "id": "Select a folder for directory listing.",
+            "message": "Select a folder for directory listing.",
+            "translation": ""
+        },
+        {
+            "id": "Strip Prefix",
+            "message": "Strip Prefix",
+            "translation": ""
+        },
+        {
+            "id": "Load Balance",
+            "message": "Load Balance",
+            "translation": ""
+        },
+        {
+            "id": "Group",
+            "message": "Group",
+            "translation": ""
+        },
+        {
+            "id": "Group Key",
+            "message": "Group Key",
+            "translation": ""
+        },
+        {
+            "id": "Health Check",
+            "message": "Health Check",
+            "translation": ""
+        },
+        {
+            "id": "Check Type",
+            "message": "Check Type",
+            "translation": ""
+        },
+        {
+            "id": "Check Timeout",
+            "message": "Check Timeout",
+            "translation": ""
+        },
+        {
+            "id": "Check Interval",
+            "message": "Check Interval",
+            "translation": ""
+        },
+        {
+            "id": "Failure Count",
+            "message": "Failure Count",
+            "translation": ""
+        },
+        {
+            "id": "Proxy already exists",
+            "message": "Proxy already exists",
+            "translation": ""
+        },
+        {
+            "id": "The proxy name \"{Name}\" already exists.",
+            "message": "The proxy name \"{Name}\" already exists.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Server name is required.",
+            "message": "Server name is required.",
+            "translation": ""
+        },
+        {
+            "id": "Bind port is required.",
+            "message": "Bind port is required.",
+            "translation": ""
+        },
+        {
+            "id": "Requires local port or plugin.",
+            "message": "Requires local port or plugin.",
+            "translation": ""
+        },
+        {
+            "id": "Local address is required.",
+            "message": "Local address is required.",
+            "translation": ""
+        },
+        {
+            "id": "Local path is required.",
+            "message": "Local path is required.",
+            "translation": ""
+        },
+        {
+            "id": "Unix path is required.",
+            "message": "Unix path is required.",
+            "translation": ""
+        },
+        {
+            "id": "Invalid local port.",
+            "message": "Invalid local port.",
+            "translation": ""
+        },
+        {
+            "id": "Health check url is required.",
+            "message": "Health check url is required.",
+            "translation": ""
+        },
+        {
+            "id": "The plugin does not support range ports.",
+            "message": "The plugin does not support range ports.",
+            "translation": ""
+        },
+        {
+            "id": "Invalid remote port.",
+            "message": "Invalid remote port.",
+            "translation": ""
+        },
+        {
+            "id": "Range ports are not supported when using WinSW integration.",
+            "message": "Range ports are not supported when using WinSW integration.",
+            "translation": ""
+        },
+        {
+            "id": "Custom domains and subdomain should have at least one of these set.",
+            "message": "Custom domains and subdomain should have at least one of these set.",
+            "translation": ""
+        },
+        {
+            "id": "Copy",
+            "message": "Copy",
+            "translation": ""
+        },
+        {
+            "id": "Open Log Folder",
+            "message": "Open Log Folder",
+            "translation": ""
+        },
+        {
+            "id": "Latest",
+            "message": "Latest",
+            "translation": ""
+        },
+        {
+            "id": "Item",
+            "message": "Item",
+            "translation": ""
+        },
+        {
+            "id": "NAT discovery is not available when using WinSW integration.",
+            "message": "NAT discovery is not available when using WinSW integration.",
+            "translation": ""
+        },
+        {
+            "id": "Unknown",
+            "message": "Unknown",
+            "translation": ""
+        },
+        {
+            "id": "Running",
+            "message": "Running",
+            "translation": ""
+        },
+        {
+            "id": "Stopped",
+            "message": "Stopped",
+            "translation": ""
+        },
+        {
+            "id": "Starting",
+            "message": "Starting",
+            "translation": ""
+        },
+        {
+            "id": "Stopping",
+            "message": "Stopping",
+            "translation": ""
+        },
+        {
+            "id": "Status",
+            "message": "Status",
+            "translation": ""
+        },
+        {
+            "id": "Your connection to the server is encrypted",
+            "message": "Your connection to the server is encrypted",
+            "translation": ""
+        },
+        {
+            "id": "Start",
+            "message": "Start",
+            "translation": ""
+        },
+        {
+            "id": "Install Service",
+            "message": "Install Service",
+            "translation": ""
+        },
+        {
+            "id": "Uninstall Service",
+            "message": "Uninstall Service",
+            "translation": ""
+        },
+        {
+            "id": "Stop",
+            "message": "Stop",
+            "translation": ""
+        },
+        {
+            "id": "Stop config \"{Name}\"",
+            "message": "Stop config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to stop config \"{Name}\"?",
+            "message": "Are you sure you would like to stop config \"{Name}\"?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Install service for config \"{Name}\"",
+            "message": "Install service for config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Success",
+            "message": "Success",
+            "translation": ""
+        },
+        {
+            "id": "Service installed successfully for config \"{Name}\"",
+            "message": "Service installed successfully for config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Uninstall service for \"{Name}\"",
+            "message": "Uninstall service for \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to uninstall the service for config \"{Name}\"?",
+            "message": "Are you sure you would like to uninstall the service for config \"{Name}\"?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Uninstall service for config \"{Name}\"",
+            "message": "Uninstall service for config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Service uninstalled successfully for config \"{Name}\"",
+            "message": "Service uninstalled successfully for config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Start config \"{Name}\"",
+            "message": "Start config \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Local Directory",
+            "message": "Local Directory",
+            "translation": ""
+        },
+        {
+            "id": "Port",
+            "message": "Port",
+            "translation": ""
+        },
+        {
+            "id": "Open Port",
+            "message": "Open Port",
+            "translation": ""
+        },
+        {
+            "id": "Preferences",
+            "message": "Preferences",
+            "translation": ""
+        },
+        {
+            "id": "Master password",
+            "message": "Master password",
+            "translation": ""
+        },
+        {
+            "id": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "message": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "translation": ""
+        },
+        {
+            "id": "Use master password",
+            "message": "Use master password",
+            "translation": ""
+        },
+        {
+            "id": "Change Password",
+            "message": "Change Password",
+            "translation": ""
+        },
+        {
+            "id": "Languages",
+            "message": "Languages",
+            "translation": ""
+        },
+        {
+            "id": "The current display language is",
+            "message": "The current display language is",
+            "translation": ""
+        },
+        {
+            "id": "You must restart program to apply the modification.",
+            "message": "You must restart program to apply the modification.",
+            "translation": ""
+        },
+        {
+            "id": "Select language",
+            "message": "Select language",
+            "translation": ""
+        },
+        {
+            "id": "You can find more settings here.\nIncludes application updates, initial default values, etc.",
+            "message": "You can find more settings here.\nIncludes application updates, initial default values, etc.",
+            "translation": ""
+        },
+        {
+            "id": "Settings",
+            "message": "Settings",
+            "translation": ""
+        },
+        {
+            "id": "Password removed.",
+            "message": "Password removed.",
+            "translation": ""
+        },
+        {
+            "id": "New master password",
+            "message": "New master password",
+            "translation": ""
+        },
+        {
+            "id": "Re-enter password",
+            "message": "Re-enter password",
+            "translation": ""
+        },
+        {
+            "id": "Password is set.",
+            "message": "Password is set.",
+            "translation": ""
+        },
+        {
+            "id": "General",
+            "message": "General",
+            "translation": ""
+        },
+        {
+            "id": "Automatically check for updates",
+            "message": "Automatically check for updates",
+            "translation": ""
+        },
+        {
+            "id": "Defaults",
+            "message": "Defaults",
+            "translation": ""
+        },
+        {
+            "id": "Log Level",
+            "message": "Log Level",
+            "translation": ""
+        },
+        {
+            "id": "Log retention",
+            "message": "Log retention",
+            "translation": ""
+        },
+        {
+            "id": "Manual",
+            "message": "Manual",
+            "translation": ""
+        },
+        {
+            "id": "Identifier",
+            "message": "Identifier",
+            "translation": ""
+        },
+        {
+            "id": "Service Name",
+            "message": "Service Name",
+            "translation": ""
+        },
+        {
+            "id": "File Format",
+            "message": "File Format",
+            "translation": ""
+        },
+        {
+            "id": "Number of Proxies",
+            "message": "Number of Proxies",
+            "translation": ""
+        },
+        {
+            "id": "Start Type",
+            "message": "Start Type",
+            "translation": ""
+        },
+        {
+            "id": "{LogFileCount} Files, {LogSizeDesc}",
+            "message": "{LogFileCount} Files, {LogSizeDesc}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "LogFileCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "logFileCount"
+                },
+                {
+                    "id": "LogSizeDesc",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "logSizeDesc"
+                }
+            ]
+        },
+        {
+            "id": "Number of TCP Connections",
+            "message": "Number of TCP Connections",
+            "translation": ""
+        },
+        {
+            "id": "Number of UDP Connections",
+            "message": "Number of UDP Connections",
+            "translation": ""
+        },
+        {
+            "id": "Started",
+            "message": "Started",
+            "translation": ""
+        },
+        {
+            "id": "Created",
+            "message": "Created",
+            "translation": ""
+        },
+        {
+            "id": "Modified",
+            "message": "Modified",
+            "translation": ""
+        },
+        {
+            "id": "{Name} Properties",
+            "message": "{Name} Properties",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "pd.conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Copy Value",
+            "message": "Copy Value",
+            "translation": ""
+        },
+        {
+            "id": "Error",
+            "message": "Error",
+            "translation": ""
+        },
+        {
+            "id": "Quick Add",
+            "message": "Quick Add",
+            "translation": ""
+        },
+        {
+            "id": "Remote Desktop",
+            "message": "Remote Desktop",
+            "translation": ""
+        },
+        {
+            "id": "Add Remote Desktop",
+            "message": "Add Remote Desktop",
+            "translation": ""
+        },
+        {
+            "id": "Add VNC",
+            "message": "Add VNC",
+            "translation": ""
+        },
+        {
+            "id": "Add SSH",
+            "message": "Add SSH",
+            "translation": ""
+        },
+        {
+            "id": "Add Web",
+            "message": "Add Web",
+            "translation": ""
+        },
+        {
+            "id": "Add FTP",
+            "message": "Add FTP",
+            "translation": ""
+        },
+        {
+            "id": "HTTP File Server",
+            "message": "HTTP File Server",
+            "translation": ""
+        },
+        {
+            "id": "Add HTTP File Server",
+            "message": "Add HTTP File Server",
+            "translation": ""
+        },
+        {
+            "id": "Proxy Server",
+            "message": "Proxy Server",
+            "translation": ""
+        },
+        {
+            "id": "Add Proxy Server",
+            "message": "Add Proxy Server",
+            "translation": ""
+        },
+        {
+            "id": "Disable",
+            "message": "Disable",
+            "translation": ""
+        },
+        {
+            "id": "Domains",
+            "message": "Domains",
+            "translation": ""
+        },
+        {
+            "id": "Remote Address",
+            "message": "Remote Address",
+            "translation": ""
+        },
+        {
+            "id": "Show Remote Address",
+            "message": "Show Remote Address",
+            "translation": ""
+        },
+        {
+            "id": "Copy Access Address",
+            "message": "Copy Access Address",
+            "translation": ""
+        },
+        {
+            "id": "Error message",
+            "message": "Error message",
+            "translation": ""
+        },
+        {
+            "id": "This feature is not supported when using WinSW integration.",
+            "message": "This feature is not supported when using WinSW integration.",
+            "translation": ""
+        },
+        {
+            "id": "This feature only supports text in INI or TOML format.",
+            "message": "This feature only supports text in INI or TOML format.",
+            "translation": ""
+        },
+        {
+            "id": "Delete proxy \"{Name}\"",
+            "message": "Delete proxy \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "message": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Delete {Count} proxies",
+            "message": "Delete {Count} proxies",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure that you want to delete these {Count} proxies?",
+            "message": "Are you sure that you want to delete these {Count} proxies?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Disable proxy \"{Name}\"",
+            "message": "Disable proxy \"{Name}\"",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "message": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Disable {Count} proxies",
+            "message": "Disable {Count} proxies",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure that you want to disable these {Count} proxies?",
+            "message": "Are you sure that you want to disable these {Count} proxies?",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Enable",
+            "message": "Enable",
+            "translation": ""
+        },
+        {
+            "id": "Passive Port Range",
+            "message": "Passive Port Range",
+            "translation": ""
+        },
+        {
+            "id": [
+                "AppName",
+                "FRPCGUI"
+            ],
+            "message": "FRPCGUI",
+            "translation": ""
+        },
+        {
+            "id": "* Support batch import, one link per line.",
+            "message": "* Support batch import, one link per line.",
+            "translation": ""
+        },
+        {
+            "id": "Ready",
+            "message": "Ready",
+            "translation": ""
+        },
+        {
+            "id": "Please enter the correct URL list.",
+            "message": "Please enter the correct URL list.",
+            "translation": ""
+        },
+        {
+            "id": "Download",
+            "message": "Download",
+            "translation": ""
+        },
+        {
+            "id": "Enter Password",
+            "message": "Enter Password",
+            "translation": ""
+        },
+        {
+            "id": "You must enter an administration password to operate the {AppLocalName}.",
+            "message": "You must enter an administration password to operate the {AppLocalName}.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "AppLocalName",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "AppLocalName()"
+                }
+            ]
+        },
+        {
+            "id": "Enter Administration Password",
+            "message": "Enter Administration Password",
+            "translation": ""
+        },
+        {
+            "id": "The password is incorrect. Re-enter password.",
+            "message": "The password is incorrect. Re-enter password.",
+            "translation": ""
+        },
+        {
+            "id": "Invalid Input",
+            "message": "Invalid Input",
+            "translation": ""
+        },
+        {
+            "id": "Please enter a number from {Number} to {Number_1}.",
+            "message": "Please enter a number from {Number} to {Number_1}.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%.[1]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 1
+                },
+                {
+                    "id": "Number_1",
+                    "string": "%.[2]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "message": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Arg_1",
+                    "string": "%[1]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 1
+                },
+                {
+                    "id": "Arg_2",
+                    "string": "%[2]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "Number out of allowed range",
+            "message": "Number out of allowed range",
+            "translation": ""
+        },
+        {
+            "id": "The text does not match the required pattern.",
+            "message": "The text does not match the required pattern.",
+            "translation": ""
+        },
+        {
+            "id": "Selection Required",
+            "message": "Selection Required",
+            "translation": ""
+        },
+        {
+            "id": "Please select one of the provided options.",
+            "message": "Please select one of the provided options.",
+            "translation": ""
+        },
+        {
+            "id": "A selection is required.",
+            "message": "A selection is required.",
+            "translation": ""
+        }
+    ]
+}

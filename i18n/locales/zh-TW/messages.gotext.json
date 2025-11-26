@@ -1,0 +1,1914 @@
+{
+    "language": "zh-TW",
+    "messages": [
+        {
+            "id": "Version: {Number}",
+            "message": "Version: {Number}",
+            "translation": "版本：{Number}",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.Number"
+                }
+            ]
+        },
+        {
+            "id": "FRP version: {FRPVersion}",
+            "message": "FRP version: {FRPVersion}",
+            "translation": "FRP 版本：{FRPVersion}",
+            "placeholders": [
+                {
+                    "id": "FRPVersion",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.FRPVersion"
+                }
+            ]
+        },
+        {
+            "id": "Built on: {BuildDate}",
+            "message": "Built on: {BuildDate}",
+            "translation": "構建日期：{BuildDate}",
+            "placeholders": [
+                {
+                    "id": "BuildDate",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "version.BuildDate"
+                }
+            ]
+        },
+        {
+            "id": "All Files",
+            "message": "All Files",
+            "translation": "所有檔案"
+        },
+        {
+            "id": "Configuration Files",
+            "message": "Configuration Files",
+            "translation": "配置檔案"
+        },
+        {
+            "id": "Certificate Files",
+            "message": "Certificate Files",
+            "translation": "憑證檔案"
+        },
+        {
+            "id": "Key Files",
+            "message": "Key Files",
+            "translation": "金鑰檔案"
+        },
+        {
+            "id": "Password mismatch",
+            "message": "Password mismatch",
+            "translation": "密碼不相符"
+        },
+        {
+            "id": "Please check and try again.",
+            "message": "Please check and try again.",
+            "translation": "請檢查並重試。"
+        },
+        {
+            "id": "New Version!",
+            "message": "New Version!",
+            "translation": "發現更新！"
+        },
+        {
+            "id": "About",
+            "message": "About",
+            "translation": "關於"
+        },
+        {
+            "id": "Download updates",
+            "message": "Download updates",
+            "translation": "下載更新"
+        },
+        {
+            "id": "Checking for updates",
+            "message": "Checking for updates",
+            "translation": "正在檢查更新"
+        },
+        {
+            "id": "Check for updates",
+            "message": "Check for updates",
+            "translation": "檢查更新"
+        },
+        {
+            "id": "For comments or to report bugs, please visit the project page:",
+            "message": "For comments or to report bugs, please visit the project page:",
+            "translation": "如有任何意見或錯誤回報，請前往專案網址："
+        },
+        {
+            "id": "For FRP configuration documentation, please visit the FRP project page:",
+            "message": "For FRP configuration documentation, please visit the FRP project page:",
+            "translation": "了解 FRP 軟體配置手冊，請前往 FRP 專案網址："
+        },
+        {
+            "id": "An error occurred while checking for a software update.",
+            "message": "An error occurred while checking for a software update.",
+            "translation": "檢查更新時出現錯誤。"
+        },
+        {
+            "id": "There are currently no updates available.",
+            "message": "There are currently no updates available.",
+            "translation": "目前沒有可用的更新。"
+        },
+        {
+            "id": "OK",
+            "message": "OK",
+            "translation": "確定"
+        },
+        {
+            "id": "Cancel",
+            "message": "Cancel",
+            "translation": "取消"
+        },
+        {
+            "id": "Name",
+            "message": "Name",
+            "translation": "名稱"
+        },
+        {
+            "id": "Value",
+            "message": "Value",
+            "translation": "值"
+        },
+        {
+            "id": "Add",
+            "message": "Add",
+            "translation": "新增"
+        },
+        {
+            "id": "Delete",
+            "message": "Delete",
+            "translation": "刪除"
+        },
+        {
+            "id": "Clear All",
+            "message": "Clear All",
+            "translation": "全部清除"
+        },
+        {
+            "id": "Move Up",
+            "message": "Move Up",
+            "translation": "上移"
+        },
+        {
+            "id": "Move Down",
+            "message": "Move Down",
+            "translation": "下移"
+        },
+        {
+            "id": "Configuration",
+            "message": "Configuration",
+            "translation": "配置"
+        },
+        {
+            "id": "New Configuration",
+            "message": "New Configuration",
+            "translation": "新增配置"
+        },
+        {
+            "id": "Import from File",
+            "message": "Import from File",
+            "translation": "從檔案導入"
+        },
+        {
+            "id": "Delete {Count} configs",
+            "message": "Delete {Count} configs",
+            "translation": "刪除 {Count} 個配置",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Config already removed",
+            "message": "Config already removed",
+            "translation": "配置已刪除"
+        },
+        {
+            "id": "The config \"{Name}\" already removed.",
+            "message": "The config \"{Name}\" already removed.",
+            "translation": "配置名「{Name}」已刪除。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Edit",
+            "message": "Edit",
+            "translation": "編輯"
+        },
+        {
+            "id": "Move",
+            "message": "Move",
+            "translation": "移動"
+        },
+        {
+            "id": "Up",
+            "message": "Up",
+            "translation": "上移"
+        },
+        {
+            "id": "Down",
+            "message": "Down",
+            "translation": "下移"
+        },
+        {
+            "id": "To Top",
+            "message": "To Top",
+            "translation": "置頂"
+        },
+        {
+            "id": "To Bottom",
+            "message": "To Bottom",
+            "translation": "置底"
+        },
+        {
+            "id": "Open File",
+            "message": "Open File",
+            "translation": "打開檔案"
+        },
+        {
+            "id": "Show in Folder",
+            "message": "Show in Folder",
+            "translation": "在資料夾中顯示"
+        },
+        {
+            "id": "Create a Copy",
+            "message": "Create a Copy",
+            "translation": "創建副本"
+        },
+        {
+            "id": "All",
+            "message": "All",
+            "translation": "全部"
+        },
+        {
+            "id": "Common Only",
+            "message": "Common Only",
+            "translation": "僅通用配置"
+        },
+        {
+            "id": "Import Config",
+            "message": "Import Config",
+            "translation": "導入配置"
+        },
+        {
+            "id": "Import from URL",
+            "message": "Import from URL",
+            "translation": "從 URL 導入"
+        },
+        {
+            "id": "Import from Clipboard",
+            "message": "Import from Clipboard",
+            "translation": "從剪貼簿導入"
+        },
+        {
+            "id": "NAT Discovery",
+            "message": "NAT Discovery",
+            "translation": "NAT 偵測"
+        },
+        {
+            "id": "Copy Share Link",
+            "message": "Copy Share Link",
+            "translation": "複製分享連結"
+        },
+        {
+            "id": "Export All Configs to ZIP",
+            "message": "Export All Configs to ZIP",
+            "translation": "導出所有配置 (ZIP 壓縮檔)"
+        },
+        {
+            "id": "Properties",
+            "message": "Properties",
+            "translation": "內容"
+        },
+        {
+            "id": "Select all",
+            "message": "Select all",
+            "translation": "全選"
+        },
+        {
+            "id": "New Config",
+            "message": "New Config",
+            "translation": "新增配置"
+        },
+        {
+            "id": "Manual Settings",
+            "message": "Manual Settings",
+            "translation": "手動設定"
+        },
+        {
+            "id": "Imported {Imported} of {Total} configs.",
+            "message": "Imported {Imported} of {Total} configs.",
+            "translation": "導入了 {Total} 個配置檔案中的 {Imported} 個。",
+            "placeholders": [
+                {
+                    "id": "Imported",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "imported"
+                },
+                {
+                    "id": "Total",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "total"
+                }
+            ]
+        },
+        {
+            "id": "The file \"{Path}\" is not a valid ZIP file.",
+            "message": "The file \"{Path}\" is not a valid ZIP file.",
+            "translation": "檔案 \"{Path}\" 不是有效的壓縮檔案。",
+            "placeholders": [
+                {
+                    "id": "Path",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "path"
+                }
+            ]
+        },
+        {
+            "id": "Delete config \"{Name}\"",
+            "message": "Delete config \"{Name}\"",
+            "translation": "刪除配置「{Name}」",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete config \"{Name}\"?",
+            "message": "Are you sure you would like to delete config \"{Name}\"?",
+            "translation": "確定要刪除配置「{Name}」嗎？此動作無法還原。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "The config is currently locked.",
+            "message": "The config is currently locked.",
+            "translation": "該配置目前已被鎖定。"
+        },
+        {
+            "id": "Are you sure that you want to delete these {Count} configs?",
+            "message": "Are you sure that you want to delete these {Count} configs?",
+            "translation": "確定要刪除這 {Count} 個配置嗎？",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "{SucceededCount} succeeded, {FailedCount} failed.",
+            "message": "{SucceededCount} succeeded, {FailedCount} failed.",
+            "translation": "成功 {SucceededCount} 個，失敗 {FailedCount} 個。",
+            "placeholders": [
+                {
+                    "id": "SucceededCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "succeededCount"
+                },
+                {
+                    "id": "FailedCount",
+                    "string": "%[2]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 2,
+                    "expr": "failedCount"
+                }
+            ]
+        },
+        {
+            "id": "New Client",
+            "message": "New Client",
+            "translation": "新增用戶端"
+        },
+        {
+            "id": "Edit Client - {Name}",
+            "message": "Edit Client - {Name}",
+            "translation": "編輯用戶端 - {Name}",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "cd.data.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Basic",
+            "message": "Basic",
+            "translation": "基本"
+        },
+        {
+            "id": "Server Address",
+            "message": "Server Address",
+            "translation": "伺服器位址"
+        },
+        {
+            "id": "Server Port",
+            "message": "Server Port",
+            "translation": "伺服器通訊埠"
+        },
+        {
+            "id": "User",
+            "message": "User",
+            "translation": "帳號"
+        },
+        {
+            "id": "STUN Server",
+            "message": "STUN Server",
+            "translation": "STUN 伺服器"
+        },
+        {
+            "id": "Auth",
+            "message": "Auth",
+            "translation": "認證"
+        },
+        {
+            "id": "Auth Method",
+            "message": "Auth Method",
+            "translation": "認證方式"
+        },
+        {
+            "id": "None",
+            "message": "None",
+            "translation": "無"
+        },
+        {
+            "id": "Token",
+            "message": "Token",
+            "translation": "權杖"
+        },
+        {
+            "id": "File",
+            "message": "File",
+            "translation": "檔案"
+        },
+        {
+            "id": "Select Token File",
+            "message": "Select Token File",
+            "translation": "選擇權杖檔案"
+        },
+        {
+            "id": "Source",
+            "message": "Source",
+            "translation": "來源"
+        },
+        {
+            "id": "Secret",
+            "message": "Secret",
+            "translation": "金鑰"
+        },
+        {
+            "id": "Audience",
+            "message": "Audience",
+            "translation": "受眾"
+        },
+        {
+            "id": "Scope",
+            "message": "Scope",
+            "translation": "範圍"
+        },
+        {
+            "id": "Token Endpoint",
+            "message": "Token Endpoint",
+            "translation": "權杖位址"
+        },
+        {
+            "id": "Parameters",
+            "message": "Parameters",
+            "translation": "參數"
+        },
+        {
+            "id": "Heart Beats",
+            "message": "Heart Beats",
+            "translation": "伺服器心跳"
+        },
+        {
+            "id": "Work Conns",
+            "message": "Work Conns",
+            "translation": "工作連接"
+        },
+        {
+            "id": "Log",
+            "message": "Log",
+            "translation": "日誌"
+        },
+        {
+            "id": "Level",
+            "message": "Level",
+            "translation": "等級"
+        },
+        {
+            "id": "Max Days",
+            "message": "Max Days",
+            "translation": "最大天數"
+        },
+        {
+            "id": "Days",
+            "message": "Days",
+            "translation": "天"
+        },
+        {
+            "id": "Admin",
+            "message": "Admin",
+            "translation": "管理"
+        },
+        {
+            "id": "Admin Address",
+            "message": "Admin Address",
+            "translation": "管理位址"
+        },
+        {
+            "id": "Password",
+            "message": "Password",
+            "translation": "密碼"
+        },
+        {
+            "id": "Assets",
+            "message": "Assets",
+            "translation": "靜態資源"
+        },
+        {
+            "id": "Select a local directory that the admin server will load resources from.",
+            "message": "Select a local directory that the admin server will load resources from.",
+            "translation": "選擇管理伺服器使用的靜態資源目錄。"
+        },
+        {
+            "id": "Other Options",
+            "message": "Other Options",
+            "translation": "其他選項"
+        },
+        {
+            "id": "Auto Delete",
+            "message": "Auto Delete",
+            "translation": "自動刪除"
+        },
+        {
+            "id": "Absolute",
+            "message": "Absolute",
+            "translation": "絕對"
+        },
+        {
+            "id": "Relative",
+            "message": "Relative",
+            "translation": "相對"
+        },
+        {
+            "id": "Delete Date",
+            "message": "Delete Date",
+            "translation": "刪除日期"
+        },
+        {
+            "id": "Delete Days",
+            "message": "Delete Days",
+            "translation": "刪除天數"
+        },
+        {
+            "id": "s",
+            "message": "s",
+            "translation": "秒"
+        },
+        {
+            "id": "Connection",
+            "message": "Connection",
+            "translation": "連線"
+        },
+        {
+            "id": "Protocol",
+            "message": "Protocol",
+            "translation": "協定"
+        },
+        {
+            "id": "Advanced Options",
+            "message": "Advanced Options",
+            "translation": "進階選項"
+        },
+        {
+            "id": "Dial Timeout",
+            "message": "Dial Timeout",
+            "translation": "連線超時"
+        },
+        {
+            "id": "Keepalive",
+            "message": "Keepalive",
+            "translation": "保持週期"
+        },
+        {
+            "id": "Idle Timeout",
+            "message": "Idle Timeout",
+            "translation": "閒置超時"
+        },
+        {
+            "id": "Pool Count",
+            "message": "Pool Count",
+            "translation": "連接池數量"
+        },
+        {
+            "id": "Max Streams",
+            "message": "Max Streams",
+            "translation": "最大流數量"
+        },
+        {
+            "id": "Heartbeat",
+            "message": "Heartbeat",
+            "translation": "心跳"
+        },
+        {
+            "id": "Interval",
+            "message": "Interval",
+            "translation": "間隔"
+        },
+        {
+            "id": "Timeout",
+            "message": "Timeout",
+            "translation": "超時"
+        },
+        {
+            "id": "On",
+            "message": "On",
+            "translation": "開啟"
+        },
+        {
+            "id": "Off",
+            "message": "Off",
+            "translation": "關閉"
+        },
+        {
+            "id": "Host Name",
+            "message": "Host Name",
+            "translation": "主機名稱"
+        },
+        {
+            "id": "Certificate",
+            "message": "Certificate",
+            "translation": "憑證檔案"
+        },
+        {
+            "id": "Select Certificate File",
+            "message": "Select Certificate File",
+            "translation": "選擇憑證檔案"
+        },
+        {
+            "id": "Certificate Key",
+            "message": "Certificate Key",
+            "translation": "金鑰檔案"
+        },
+        {
+            "id": "Select Certificate Key File",
+            "message": "Select Certificate Key File",
+            "translation": "選擇憑證金鑰檔案"
+        },
+        {
+            "id": "Trusted CA",
+            "message": "Trusted CA",
+            "translation": "受信任憑證"
+        },
+        {
+            "id": "Select Trusted CA File",
+            "message": "Select Trusted CA File",
+            "translation": "選擇受信任的憑證"
+        },
+        {
+            "id": "Disable custom first byte",
+            "message": "Disable custom first byte",
+            "translation": "停用自訂第一位元組"
+        },
+        {
+            "id": "Advanced",
+            "message": "Advanced",
+            "translation": "進階"
+        },
+        {
+            "id": "Source Address",
+            "message": "Source Address",
+            "translation": "使用來源位址"
+        },
+        {
+            "id": "TCP Mux",
+            "message": "TCP Mux",
+            "translation": "多路復用"
+        },
+        {
+            "id": "Exit after login failure",
+            "message": "Exit after login failure",
+            "translation": "初次登錄失敗後退出"
+        },
+        {
+            "id": "Disable auto-start at boot",
+            "message": "Disable auto-start at boot",
+            "translation": "停用開機自啟動"
+        },
+        {
+            "id": "Use legacy file format",
+            "message": "Use legacy file format",
+            "translation": "使用舊檔案格式"
+        },
+        {
+            "id": "Metadata",
+            "message": "Metadata",
+            "translation": "元資料"
+        },
+        {
+            "id": "Proxy URL",
+            "message": "Proxy URL",
+            "translation": "代理 URL"
+        },
+        {
+            "id": "UDP Packet Size",
+            "message": "UDP Packet Size",
+            "translation": "UDP 封包大小"
+        },
+        {
+            "id": "Token file is required.",
+            "message": "Token file is required.",
+            "translation": "必須填寫權杖檔案。"
+        },
+        {
+            "id": "Config already exists",
+            "message": "Config already exists",
+            "translation": "配置已存在"
+        },
+        {
+            "id": "The config name \"{Name}\" already exists.",
+            "message": "The config name \"{Name}\" already exists.",
+            "translation": "配置名「{Name}」已存在。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Unable to upgrade your config file due to proxy conversion failure, please check the proxy config and try again.\n\nBad proxy: {Name}",
+            "message": "Unable to upgrade your config file due to proxy conversion failure, please check the proxy config and try again.\n\nBad proxy: {Name}",
+            "translation": "由於代理轉換失敗，無法升級您的配置檔案，請檢查代理配置並重試。\n\n出錯的代理：{Name}",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "v.Name"
+                }
+            ]
+        },
+        {
+            "id": "New Proxy",
+            "message": "New Proxy",
+            "translation": "新增代理"
+        },
+        {
+            "id": "Edit Proxy - {Name}",
+            "message": "Edit Proxy - {Name}",
+            "translation": "編輯代理 - {Name}",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "pd.Proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Annotations",
+            "message": "Annotations",
+            "translation": "註解"
+        },
+        {
+            "id": "Random",
+            "message": "Random",
+            "translation": "隨機名稱"
+        },
+        {
+            "id": "Type",
+            "message": "Type",
+            "translation": "類型"
+        },
+        {
+            "id": "Request headers",
+            "message": "Request headers",
+            "translation": "請求表頭"
+        },
+        {
+            "id": "Response headers",
+            "message": "Response headers",
+            "translation": "回應表頭"
+        },
+        {
+            "id": "Role",
+            "message": "Role",
+            "translation": "角色"
+        },
+        {
+            "id": "Server",
+            "message": "Server",
+            "translation": "伺服器"
+        },
+        {
+            "id": "Visitor",
+            "message": "Visitor",
+            "translation": "訪客"
+        },
+        {
+            "id": "Secret Key",
+            "message": "Secret Key",
+            "translation": "私鑰"
+        },
+        {
+            "id": "Local Address",
+            "message": "Local Address",
+            "translation": "本機位址"
+        },
+        {
+            "id": "Local Port",
+            "message": "Local Port",
+            "translation": "本機通訊埠"
+        },
+        {
+            "id": "Remote Port",
+            "message": "Remote Port",
+            "translation": "遠端通訊埠"
+        },
+        {
+            "id": "Allow Users",
+            "message": "Allow Users",
+            "translation": "允許帳號"
+        },
+        {
+            "id": "Bind Address",
+            "message": "Bind Address",
+            "translation": "綁定位址"
+        },
+        {
+            "id": "Bind Port",
+            "message": "Bind Port",
+            "translation": "綁定通訊埠"
+        },
+        {
+            "id": "Server Name",
+            "message": "Server Name",
+            "translation": "伺服器名稱"
+        },
+        {
+            "id": "Server User",
+            "message": "Server User",
+            "translation": "伺服器帳號"
+        },
+        {
+            "id": "Subdomain",
+            "message": "Subdomain",
+            "translation": "子域名"
+        },
+        {
+            "id": "Custom Domains",
+            "message": "Custom Domains",
+            "translation": "自定域名"
+        },
+        {
+            "id": "Locations",
+            "message": "Locations",
+            "translation": "URL 路由"
+        },
+        {
+            "id": "Multiplexer",
+            "message": "Multiplexer",
+            "translation": "復用器"
+        },
+        {
+            "id": "Route User",
+            "message": "Route User",
+            "translation": "路由帳號"
+        },
+        {
+            "id": "Client",
+            "message": "Client",
+            "translation": "客戶端"
+        },
+        {
+            "id": "Bandwidth",
+            "message": "Bandwidth",
+            "translation": "頻寬限制"
+        },
+        {
+            "id": "Proxy Protocol",
+            "message": "Proxy Protocol",
+            "translation": "代理協定"
+        },
+        {
+            "id": "Auto",
+            "message": "Auto",
+            "translation": "自動"
+        },
+        {
+            "id": "Default",
+            "message": "Default",
+            "translation": "預設"
+        },
+        {
+            "id": "Keep Tunnel",
+            "message": "Keep Tunnel",
+            "translation": "通道保持"
+        },
+        {
+            "id": "Encryption",
+            "message": "Encryption",
+            "translation": "加密傳輸"
+        },
+        {
+            "id": "Compression",
+            "message": "Compression",
+            "translation": "壓縮傳輸"
+        },
+        {
+            "id": "Fallback",
+            "message": "Fallback",
+            "translation": "備用"
+        },
+        {
+            "id": "Fallback Timeout",
+            "message": "Fallback Timeout",
+            "translation": "備用超時"
+        },
+        {
+            "id": "ms",
+            "message": "ms",
+            "translation": "毫秒"
+        },
+        {
+            "id": "Retry Count",
+            "message": "Retry Count",
+            "translation": "重試次數"
+        },
+        {
+            "id": "Times/Hour",
+            "message": "Times/Hour",
+            "translation": "次/小時"
+        },
+        {
+            "id": "Retry Interval",
+            "message": "Retry Interval",
+            "translation": "重試間隔"
+        },
+        {
+            "id": "HTTP User",
+            "message": "HTTP User",
+            "translation": "HTTP 帳號"
+        },
+        {
+            "id": "HTTP Password",
+            "message": "HTTP Password",
+            "translation": "HTTP 密碼"
+        },
+        {
+            "id": "Host Rewrite",
+            "message": "Host Rewrite",
+            "translation": "Host 替換"
+        },
+        {
+            "id": "Plugin",
+            "message": "Plugin",
+            "translation": "外掛"
+        },
+        {
+            "id": "Plugin Name",
+            "message": "Plugin Name",
+            "translation": "外掛名稱"
+        },
+        {
+            "id": "Unix Path",
+            "message": "Unix Path",
+            "translation": "Unix 路徑"
+        },
+        {
+            "id": "Select Unix Path",
+            "message": "Select Unix Path",
+            "translation": "選擇 Unix 路徑"
+        },
+        {
+            "id": "Local Path",
+            "message": "Local Path",
+            "translation": "本機路徑"
+        },
+        {
+            "id": "Select a folder for directory listing.",
+            "message": "Select a folder for directory listing.",
+            "translation": "選擇需要顯示目錄列表的資料夾。"
+        },
+        {
+            "id": "Strip Prefix",
+            "message": "Strip Prefix",
+            "translation": "移除前綴"
+        },
+        {
+            "id": "Load Balance",
+            "message": "Load Balance",
+            "translation": "負載平衡"
+        },
+        {
+            "id": "Group",
+            "message": "Group",
+            "translation": "分組名稱"
+        },
+        {
+            "id": "Group Key",
+            "message": "Group Key",
+            "translation": "分組金鑰"
+        },
+        {
+            "id": "Health Check",
+            "message": "Health Check",
+            "translation": "健康檢查"
+        },
+        {
+            "id": "Check Type",
+            "message": "Check Type",
+            "translation": "檢查類型"
+        },
+        {
+            "id": "Check Timeout",
+            "message": "Check Timeout",
+            "translation": "檢查超時"
+        },
+        {
+            "id": "Check Interval",
+            "message": "Check Interval",
+            "translation": "檢查週期"
+        },
+        {
+            "id": "Failure Count",
+            "message": "Failure Count",
+            "translation": "錯誤次數"
+        },
+        {
+            "id": "Proxy already exists",
+            "message": "Proxy already exists",
+            "translation": "代理已存在"
+        },
+        {
+            "id": "The proxy name \"{Name}\" already exists.",
+            "message": "The proxy name \"{Name}\" already exists.",
+            "translation": "代理名「{Name}」已存在。",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Server name is required.",
+            "message": "Server name is required.",
+            "translation": "必須填寫服務名稱。"
+        },
+        {
+            "id": "Bind port is required.",
+            "message": "Bind port is required.",
+            "translation": "必須填寫綁定通訊埠。"
+        },
+        {
+            "id": "Requires local port or plugin.",
+            "message": "Requires local port or plugin.",
+            "translation": "必須填寫本機通訊埠或外掛。"
+        },
+        {
+            "id": "Local address is required.",
+            "message": "Local address is required.",
+            "translation": "必須填寫本機位址。"
+        },
+        {
+            "id": "Local path is required.",
+            "message": "Local path is required.",
+            "translation": "必須填寫本機路徑。"
+        },
+        {
+            "id": "Unix path is required.",
+            "message": "Unix path is required.",
+            "translation": "必須填寫 Unix 路徑。"
+        },
+        {
+            "id": "Invalid local port.",
+            "message": "Invalid local port.",
+            "translation": "無效的本機通訊埠。"
+        },
+        {
+            "id": "Health check url is required.",
+            "message": "Health check url is required.",
+            "translation": "健康檢查 URL 為必填項。"
+        },
+        {
+            "id": "The plugin does not support range ports.",
+            "message": "The plugin does not support range ports.",
+            "translation": "外掛不支援範圍通訊埠。"
+        },
+        {
+            "id": "Invalid remote port.",
+            "message": "Invalid remote port.",
+            "translation": "無效的遠端通訊埠。"
+        },
+        {
+            "id": "The number of local ports should be the same as the number of remote ports.",
+            "message": "The number of local ports should be the same as the number of remote ports.",
+            "translation": "本機通訊埠的數量應與遠端通訊埠的數量相同。"
+        },
+        {
+            "id": "Custom domains and subdomain should have at least one of these set.",
+            "message": "Custom domains and subdomain should have at least one of these set.",
+            "translation": "自訂網域和子網域應至少填寫其中之一。"
+        },
+        {
+            "id": "Copy",
+            "message": "Copy",
+            "translation": "複製"
+        },
+        {
+            "id": "Open Log Folder",
+            "message": "Open Log Folder",
+            "translation": "打開日誌資料夾"
+        },
+        {
+            "id": "Latest",
+            "message": "Latest",
+            "translation": "最新"
+        },
+        {
+            "id": "Item",
+            "message": "Item",
+            "translation": "項目"
+        },
+        {
+            "id": "NAT Type",
+            "message": "NAT Type",
+            "translation": "NAT 類型"
+        },
+        {
+            "id": "Behavior",
+            "message": "Behavior",
+            "translation": "行為"
+        },
+        {
+            "id": "External Address",
+            "message": "External Address",
+            "translation": "外部位址"
+        },
+        {
+            "id": "Yes",
+            "message": "Yes",
+            "translation": "是"
+        },
+        {
+            "id": "No",
+            "message": "No",
+            "translation": "否"
+        },
+        {
+            "id": "Public Network",
+            "message": "Public Network",
+            "translation": "公共網路"
+        },
+        {
+            "id": "Unknown",
+            "message": "Unknown",
+            "translation": "未知"
+        },
+        {
+            "id": "Running",
+            "message": "Running",
+            "translation": "正在執行"
+        },
+        {
+            "id": "Stopped",
+            "message": "Stopped",
+            "translation": "已停止"
+        },
+        {
+            "id": "Starting",
+            "message": "Starting",
+            "translation": "正在啟動"
+        },
+        {
+            "id": "Stopping",
+            "message": "Stopping",
+            "translation": "正在停止"
+        },
+        {
+            "id": "Status",
+            "message": "Status",
+            "translation": "狀態"
+        },
+        {
+            "id": "Your connection to the server is encrypted",
+            "message": "Your connection to the server is encrypted",
+            "translation": "與伺服器的連線已加密"
+        },
+        {
+            "id": "Start",
+            "message": "Start",
+            "translation": "啟動"
+        },
+        {
+            "id": "Stop",
+            "message": "Stop",
+            "translation": "停止"
+        },
+        {
+            "id": "Stop config \"{Name}\"",
+            "message": "Stop config \"{Name}\"",
+            "translation": "停止配置「{Name}」",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to stop config \"{Name}\"?",
+            "message": "Are you sure you would like to stop config \"{Name}\"?",
+            "translation": "確定要停止配置「{Name}」嗎？",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Start config \"{Name}\"",
+            "message": "Start config \"{Name}\"",
+            "translation": "啟動配置「{Name}」",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Local Directory",
+            "message": "Local Directory",
+            "translation": "本機目錄"
+        },
+        {
+            "id": "Port",
+            "message": "Port",
+            "translation": "通訊埠"
+        },
+        {
+            "id": "Open Port",
+            "message": "Open Port",
+            "translation": "打開通訊埠"
+        },
+        {
+            "id": "Preferences",
+            "message": "Preferences",
+            "translation": "選項"
+        },
+        {
+            "id": "Master password",
+            "message": "Master password",
+            "translation": "主密碼"
+        },
+        {
+            "id": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "message": "You can set a password to restrict access to this program.\nYou will be asked to enter it the next time you use this program.",
+            "translation": "您可以設定密碼來限制前往此程式。\n在下次使用此程式時，您將被要求輸入密碼。"
+        },
+        {
+            "id": "Use master password",
+            "message": "Use master password",
+            "translation": "使用主密碼"
+        },
+        {
+            "id": "Change Password",
+            "message": "Change Password",
+            "translation": "修改密碼"
+        },
+        {
+            "id": "Languages",
+            "message": "Languages",
+            "translation": "語言"
+        },
+        {
+            "id": "The current display language is",
+            "message": "The current display language is",
+            "translation": "目前的顯示語言"
+        },
+        {
+            "id": "You must restart program to apply the modification.",
+            "message": "You must restart program to apply the modification.",
+            "translation": "您必須重新啟動程式才能套用修改。"
+        },
+        {
+            "id": "Select language",
+            "message": "Select language",
+            "translation": "選擇語言"
+        },
+        {
+            "id": "You can find more settings here.\nIncludes application updates, initial default values, etc.",
+            "message": "You can find more settings here.\nIncludes application updates, initial default values, etc.",
+            "translation": "您可以在此處找到更多設定。\n包括應用程式更新、初始預設值等。"
+        },
+        {
+            "id": "Settings",
+            "message": "Settings",
+            "translation": "設定"
+        },
+        {
+            "id": "Password removed.",
+            "message": "Password removed.",
+            "translation": "密碼已刪除。"
+        },
+        {
+            "id": "New master password",
+            "message": "New master password",
+            "translation": "新主密碼"
+        },
+        {
+            "id": "Re-enter password",
+            "message": "Re-enter password",
+            "translation": "確認密碼"
+        },
+        {
+            "id": "Password is set.",
+            "message": "Password is set.",
+            "translation": "密碼已設定。"
+        },
+        {
+            "id": "General",
+            "message": "General",
+            "translation": "通用"
+        },
+        {
+            "id": "Automatically check for updates",
+            "message": "Automatically check for updates",
+            "translation": "自動檢查更新"
+        },
+        {
+            "id": "Defaults",
+            "message": "Defaults",
+            "translation": "預設值"
+        },
+        {
+            "id": "Log Level",
+            "message": "Log Level",
+            "translation": "日誌等級"
+        },
+        {
+            "id": "Log retention",
+            "message": "Log retention",
+            "translation": "日誌保留"
+        },
+        {
+            "id": "Manual",
+            "message": "Manual",
+            "translation": "手動"
+        },
+        {
+            "id": "Identifier",
+            "message": "Identifier",
+            "translation": "識別符"
+        },
+        {
+            "id": "Service Name",
+            "message": "Service Name",
+            "translation": "服務名稱"
+        },
+        {
+            "id": "File Format",
+            "message": "File Format",
+            "translation": "檔案格式"
+        },
+        {
+            "id": "Number of Proxies",
+            "message": "Number of Proxies",
+            "translation": "代理數量"
+        },
+        {
+            "id": "Start Type",
+            "message": "Start Type",
+            "translation": "啟動類型"
+        },
+        {
+            "id": "{LogFileCount} Files, {LogSizeDesc}",
+            "message": "{LogFileCount} Files, {LogSizeDesc}",
+            "translation": "{LogFileCount} 個文件，{LogSizeDesc}",
+            "placeholders": [
+                {
+                    "id": "LogFileCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "logFileCount"
+                },
+                {
+                    "id": "LogSizeDesc",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "logSizeDesc"
+                }
+            ]
+        },
+        {
+            "id": "Number of TCP Connections",
+            "message": "Number of TCP Connections",
+            "translation": "TCP 連線數"
+        },
+        {
+            "id": "Number of UDP Connections",
+            "message": "Number of UDP Connections",
+            "translation": "UDP 連線數"
+        },
+        {
+            "id": "Started",
+            "message": "Started",
+            "translation": "已啟動"
+        },
+        {
+            "id": "Created",
+            "message": "Created",
+            "translation": "建立日期"
+        },
+        {
+            "id": "Modified",
+            "message": "Modified",
+            "translation": "修改日期"
+        },
+        {
+            "id": "{Name} Properties",
+            "message": "{Name} Properties",
+            "translation": "{Name} - 內容",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "pd.conf.Name()"
+                }
+            ]
+        },
+        {
+            "id": "Copy Value",
+            "message": "Copy Value",
+            "translation": "複製值"
+        },
+        {
+            "id": "Error",
+            "message": "Error",
+            "translation": "出錯"
+        },
+        {
+            "id": "Quick Add",
+            "message": "Quick Add",
+            "translation": "快速添加"
+        },
+        {
+            "id": "Remote Desktop",
+            "message": "Remote Desktop",
+            "translation": "遠端桌面"
+        },
+        {
+            "id": "Add Remote Desktop",
+            "message": "Add Remote Desktop",
+            "translation": "添加遠端桌面"
+        },
+        {
+            "id": "Add VNC",
+            "message": "Add VNC",
+            "translation": "添加 VNC"
+        },
+        {
+            "id": "Add SSH",
+            "message": "Add SSH",
+            "translation": "添加 SSH"
+        },
+        {
+            "id": "Add Web",
+            "message": "Add Web",
+            "translation": "添加 Web"
+        },
+        {
+            "id": "Add FTP",
+            "message": "Add FTP",
+            "translation": "添加 FTP"
+        },
+        {
+            "id": "HTTP File Server",
+            "message": "HTTP File Server",
+            "translation": "HTTP 檔案服務"
+        },
+        {
+            "id": "Add HTTP File Server",
+            "message": "Add HTTP File Server",
+            "translation": "添加 HTTP 檔案服務"
+        },
+        {
+            "id": "Proxy Server",
+            "message": "Proxy Server",
+            "translation": "代理伺服器"
+        },
+        {
+            "id": "Add Proxy Server",
+            "message": "Add Proxy Server",
+            "translation": "添加代理伺服器"
+        },
+        {
+            "id": "Disable",
+            "message": "Disable",
+            "translation": "停用"
+        },
+        {
+            "id": "Domains",
+            "message": "Domains",
+            "translation": "域名"
+        },
+        {
+            "id": "Remote Address",
+            "message": "Remote Address",
+            "translation": "遠端位址"
+        },
+        {
+            "id": "Show Remote Address",
+            "message": "Show Remote Address",
+            "translation": "顯示遠端位址"
+        },
+        {
+            "id": "Copy Access Address",
+            "message": "Copy Access Address",
+            "translation": "複製存取位址"
+        },
+        {
+            "id": "Error message",
+            "message": "Error message",
+            "translation": "錯誤訊息"
+        },
+        {
+            "id": "This feature only supports text in INI or TOML format.",
+            "message": "This feature only supports text in INI or TOML format.",
+            "translation": "此功能僅支援 INI 或 TOML 格式的文字。"
+        },
+        {
+            "id": "Delete proxy \"{Name}\"",
+            "message": "Delete proxy \"{Name}\"",
+            "translation": "刪除代理「{Name}」",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "message": "Are you sure you would like to delete proxy \"{Name}\"?",
+            "translation": "確定要刪除代理「{Name}」嗎？",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "name"
+                }
+            ]
+        },
+        {
+            "id": "Delete {Count} proxies",
+            "message": "Delete {Count} proxies",
+            "translation": "刪除 {Count} 個代理",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure that you want to delete these {Count} proxies?",
+            "message": "Are you sure that you want to delete these {Count} proxies?",
+            "translation": "確定要刪除這 {Count} 個代理嗎？",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Disable proxy \"{Name}\"",
+            "message": "Disable proxy \"{Name}\"",
+            "translation": "停用代理「{Name}」",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "message": "Are you sure you would like to disable proxy \"{Name}\"?",
+            "translation": "確定要停用代理「{Name}」嗎？",
+            "placeholders": [
+                {
+                    "id": "Name",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "proxy.Name"
+                }
+            ]
+        },
+        {
+            "id": "Disable {Count} proxies",
+            "message": "Disable {Count} proxies",
+            "translation": "停用 {Count} 個代理",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Are you sure that you want to disable these {Count} proxies?",
+            "message": "Are you sure that you want to disable these {Count} proxies?",
+            "translation": "確定要停用這 {Count} 個代理嗎？",
+            "placeholders": [
+                {
+                    "id": "Count",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "count"
+                }
+            ]
+        },
+        {
+            "id": "Enable",
+            "message": "Enable",
+            "translation": "啟用"
+        },
+        {
+            "id": "Passive Port Range",
+            "message": "Passive Port Range",
+            "translation": "被動通訊埠範圍"
+        },
+        {
+            "id": [
+                "AppName",
+                "FRPCGUI"
+            ],
+            "message": "FRPCGUI",
+            "translation": "FRPC 配置管理器"
+        },
+        {
+            "id": "* Support batch import, one link per line.",
+            "message": "* Support batch import, one link per line.",
+            "translation": "* 支援批量導入，每行一個連結。"
+        },
+        {
+            "id": "Ready",
+            "message": "Ready",
+            "translation": "準備就緒"
+        },
+        {
+            "id": "Please enter the correct URL list.",
+            "message": "Please enter the correct URL list.",
+            "translation": "請輸入正確的 URL 列表。"
+        },
+        {
+            "id": "Download",
+            "message": "Download",
+            "translation": "下載"
+        },
+        {
+            "id": "Enter Password",
+            "message": "Enter Password",
+            "translation": "輸入密碼"
+        },
+        {
+            "id": "You must enter an administration password to operate the {AppLocalName}.",
+            "message": "You must enter an administration password to operate the {AppLocalName}.",
+            "translation": "您必須輸入管理密碼來使用 {AppLocalName}。",
+            "placeholders": [
+                {
+                    "id": "AppLocalName",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "AppLocalName"
+                }
+            ]
+        },
+        {
+            "id": "Enter Administration Password",
+            "message": "Enter Administration Password",
+            "translation": "輸入管理密碼"
+        },
+        {
+            "id": "The password is incorrect. Re-enter password.",
+            "message": "The password is incorrect. Re-enter password.",
+            "translation": "密碼錯誤。請重新輸入。"
+        },
+        {
+            "id": "Invalid Input",
+            "message": "Invalid Input",
+            "translation": "輸入無效"
+        },
+        {
+            "id": "Please enter a number from {Number} to {Number_1}.",
+            "message": "Please enter a number from {Number} to {Number_1}.",
+            "translation": "請輸入一個從 {Number} 到 {Number_1} 的數字。",
+            "placeholders": [
+                {
+                    "id": "Number",
+                    "string": "%.[1]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 1
+                },
+                {
+                    "id": "Number_1",
+                    "string": "%.[2]f",
+                    "type": "",
+                    "underlyingType": "float64",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "message": "Please enter a number from {Arg_1} to {Arg_2}.",
+            "translation": "請輸入一個從 {Arg_1} 到 {Arg_2} 的數字。",
+            "placeholders": [
+                {
+                    "id": "Arg_1",
+                    "string": "%[1]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 1
+                },
+                {
+                    "id": "Arg_2",
+                    "string": "%[2]s",
+                    "type": "",
+                    "underlyingType": "string",
+                    "argNum": 2
+                }
+            ]
+        },
+        {
+            "id": "Number out of allowed range",
+            "message": "Number out of allowed range",
+            "translation": "數值超出許可範圍"
+        },
+        {
+            "id": "The text does not match the required pattern.",
+            "message": "The text does not match the required pattern.",
+            "translation": "文字與要求的模式不相符。"
+        },
+        {
+            "id": "Selection Required",
+            "message": "Selection Required",
+            "translation": "必填項目"
+        },
+        {
+            "id": "Please select one of the provided options.",
+            "message": "Please select one of the provided options.",
+            "translation": "請選擇其中一個選項。"
+        },
+        {
+            "id": "A selection is required.",
+            "message": "A selection is required.",
+            "translation": "必需選擇。"
+        },
+        {
+            "id": "Install Service",
+            "message": "Install Service",
+            "translation": "安裝服務"
+        },
+        {
+            "id": "Uninstall Service",
+            "message": "Uninstall Service",
+            "translation": "解除安裝服務"
+        },
+        {
+            "id": "Not Installed",
+            "message": "Not Installed",
+            "translation": "未安裝"
+        }
+    ]
+}

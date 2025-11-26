@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": [],
+    "go.delveConfig": {
+        "useApiV1": false,
+        "apiVersion": 2,
+        "showGlobalVariables": false
+    },
+    "go.buildFlags": [
+        "-gcflags=all=-N -l"
+    ],
+    "go.toolsEnvVars": {
+        "CGO_ENABLED": "0"
+    },
+    "yaml.schemas": {
+        "${workspaceFolder}/.vscode/empty-yaml-schema.json": [
+            "${workspaceFolder}/.goreleaser.yaml"
+        ]
+    },
+    "yaml.schemaStore.enable": false
+}

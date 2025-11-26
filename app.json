@@ -1,0 +1,20 @@
+{
+    "lang": "zh-CN",
+    "checkUpdate": true,
+    "defaults": {
+        "logLevel": "info",
+        "logMaxDays": 3,
+        "tcpMux": true,
+        "tls": true
+    },
+    "sort": [
+        "aaa",
+        "www",
+        "aliyun",
+        "f06eab6f4a31d93d72b9086bae3fa2f0"
+    ],
+    "position": [
+        4438,
+        254
+    ]
+}

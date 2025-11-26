@@ -1,0 +1,13 @@
+{
+	"password": "abcde",
+	"defaults": {
+		"logLevel": "info",
+		"logMaxDays": 5,
+		"protocol": "kcp",
+		"user": "user",
+		"tcpMux": true,
+		"manualStart": true,
+		"legacyFormat": true
+	}
+}
+	
