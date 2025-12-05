@@ -1,0 +1,17 @@
+{
+    "lang": "zh-CN",
+    "checkUpdate": true,
+    "defaults": {
+        "logLevel": "info",
+        "logMaxDays": 3,
+        "tcpMux": true,
+        "tls": true
+    },
+    "sort": [
+        "891da8ab8a6d1e56dd32fc8db94b85bd"
+    ],
+    "position": [
+        1028,
+        470
+    ]
+}

@@ -1,0 +1,24 @@
+# GoReleaser 配置示例
+project_name: frpcgui
+builds:
+  - id: frpcgui
+    main: ./cmd/frpcgui/main.go
+    goos: [windows]
+    goarch: [amd64]
+    ldflags: -s -w
+    binary: frpcgui
+    env:
+      - CGO_ENABLED=0
+archives:
+  - format: zip
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - frpcgui.exe
+      - assets/**
+      - README.md
+checksum:
+  name_template: "checksums.txt"
+release:
+  github:
+    owner: hzcrv1911
+    name: frpcGUI

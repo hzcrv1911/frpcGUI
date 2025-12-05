@@ -1,0 +1,9 @@
+*.ini
+logs
+bin
+*.syso
+/pkg/util/testdata
+i18n/catalog.go
+cmd/frpcgui/__debug_bin.exe
+/cmd/frpcgui/profiles
+/profiles

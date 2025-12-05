@@ -1,0 +1,76 @@
+package main
+
+import (
+	"errors"
+	"flag"
+	"fmt"
+	"os"
+	"strings"
+	"syscall"
+
+	"golang.org/x/sys/windows"
+	"golang.org/x/sys/windows/svc"
+
+	"github.com/hzcrv1911/frpcgui/i18n"
+	"github.com/hzcrv1911/frpcgui/pkg/version"
+	"github.com/hzcrv1911/frpcgui/ui"
+)
+
+func fatal(v ...interface{}) {
+	windows.MessageBox(0, windows.StringToUTF16Ptr(fmt.Sprint(v...)), windows.StringToUTF16Ptr(ui.AppLocalName()), windows.MB_ICONERROR)
+	os.Exit(1)
+}
+
+func info(title string, format string, v ...interface{}) {
+	windows.MessageBox(0, windows.StringToUTF16Ptr(i18n.Sprintf(format, v...)), windows.StringToUTF16Ptr(title), windows.MB_ICONINFORMATION)
+}
+
+var (
+	confPath    string
+	showVersion bool
+	showHelp    bool
+	flagOutput  strings.Builder
+)
+
+func init() {
+	flag.StringVar(&confPath, "c", "", "The path to config `file` (Service-only).")
+	flag.BoolVar(&showVersion, "v", false, "Display version information.")
+	flag.BoolVar(&showHelp, "h", false, "Show help information.")
+	flag.CommandLine.SetOutput(&flagOutput)
+	flag.Parse()
+}
+
+func main() {
+	if showHelp {
+		flag.Usage()
+		info(ui.AppLocalName(), flagOutput.String())
+		return
+	}
+	if showVersion {
+		info(ui.AppLocalName(), strings.Join([]string{
+			i18n.Sprintf("Version: %s", version.Number),
+			i18n.Sprintf("Built on: %s", version.BuildDate),
+		}, "\n"))
+		return
+	}
+	inService, err := svc.IsWindowsService()
+	if err != nil {
+		fatal(err)
+	}
+	if inService {
+		// We no longer support running as a service directly
+		// All services are managed by WinSW
+		os.Exit(1)
+		return
+	} else {
+		h, err := checkSingleton()
+		defer windows.CloseHandle(h)
+		if errors.Is(err, syscall.ERROR_ALREADY_EXISTS) {
+			showMainWindow()
+			return
+		}
+		if err = ui.RunUI(); err != nil {
+			fatal(err)
+		}
+	}
+}
